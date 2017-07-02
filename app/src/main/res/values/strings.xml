@@ -1,0 +1,13 @@
+<resources>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="not_a_member_yet_register">Not a member yet? Register now!</string>
+    <string name="this_field_is_required">This field is required.</string>
+    <string name="loading">Loading</string>
+    <string name="please_wait">Please wait&#8230;</string>
+    <string name="send">Send</string>
+    <string name="display_name">Display name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+</resources>

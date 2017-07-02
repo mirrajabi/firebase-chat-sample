@@ -1,0 +1,40 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath 'com.jakewharton:butterknife-gradle-plugin:8.4.0'
+        classpath 'me.tatarka:gradle-retrolambda:3.4.0'
+        classpath 'com.google.gms:google-services:3.1.0'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+ext {
+    applicationName = 'FirebaseCoolChat'
+    applicationId = "ir.mirrajabi.firebasecoolchat"
+    minSdkVersion = 16
+    targetSdkVersion = 26
+    compileSdkVersion = 26
+    buildToolsVersion = '26.0.0'
+
+    googlePlayVersion = '10.0.0'
+    supportLibraryVersion = '26.+'
+    javaxAnnotationVersion = '1.0'
+    daggerVersion = '2.8'
+    butterknifeVersion = '8.4.0'
+    rxJavaVersion = '2.0.2'
+    rxAndroidVersion = '2.0.1'
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
