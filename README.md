@@ -1,8 +1,6 @@
 # firebase-chat-sample
 A sample app that shows basic usage of Firebase Auth and Database in form of a very simple chat hub app
 
-I will update this readme soon...
-
 
 ### Quick tip for building this until I update this readme
 Just submit a new app in firebase console and then replce your `google-services.json` file with the empty one in the `app` directory and then Run!
